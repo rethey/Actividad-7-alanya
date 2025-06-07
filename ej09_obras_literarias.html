@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/tigrebebe.ico" type="image/x-icon">
+  <title>Insertar imágenes</title>
+  <style>
+    caption {
+      color: green;
+      text-transform: uppercase; /* Convierte a mayúsculas */
+    }
+    caption, th {
+      font-size: 28px;
+      font-weight: bold; /* Fuente en negrita */
+    }
+    th {
+      color: #d8cc24;
+    }
+    h1 {
+      color: #067915;
+    }
+    h2 {
+      color: #d8cc24;
+    }
+    h3 {
+      color: #da5c5cd2;
+    }
+    table {
+      border: 1px solid orange;
+      border-collapse: collapse;
+      margin: auto;
+    }
+    th, td {
+      border: 1px solid orange;
+    }
+    a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .centrado {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Obras Literarias</caption>
+    <thead>
+      <tr>
+        <th>Obra literaria</th>
+        <th>Género Literario</th>
+        <th>Autor(es)</th>
+        <th>Ver obra</th>
+        <th>Multimedia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><h1>Cachorro de tigre</h1></td>
+        <td><h2>Cuento</h2></td>
+        <td><h3>Enrique Lopez Albujar</h3></td>
+        <td>
+          <a href="https://cuentosbonitos.weebly.com/cachorro-de-tigre.html" target="_blank">
+            <img src="img/cachorro_de_tigre.jpg" width="240" height="140" alt="Cachorro de tigre" title="Cachorro de tigre">
+          </a>
+        </td>
+        <td style="text-align: center;">
+          <audio controls>
+            <source src="audios/rugido.mp3" type="audio/mp3">
+          </audio>
+        </td>
+      </tr>
+      <tr>
+        <td><h1>Tortololita</h1></td>
+        <td><h2>Cuento</h2></td>
+        <td><h3>Roberto Aliaga - Paula Alenda</h3></td>
+        <td>
+          <a href="https://coleccionandocuentos.blogspot.com/2017/07/tortololita.html" target="_blank">
+            <img src="img/tortolita.jpg" width="240" height="240" alt="Tortolita" title="Tortolita">
+          </a>
+        </td>
+        <td>
+          <video width="460" height="215" controls poster="img/appvideo.jpg">
+            <source src="videos/tortola.mp4" type="video/mp4" />
+            <p>Tu navegador no soporta HTML5</p>
+          </video>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1>
+            Don Dimas de la Tijereta <br><br>
+            <a href="https://www.miraflores.gob.pe/wp-content/uploads/2020/05/Don-Dimas-de-la-Tijereta.pdf" target="_blank">Ver PDF</a>
+          </h1>
+        </td>
+        <td><h2>Cuento</h2></td>
+        <td>
+          <h3>
+            Ricardo Palma Soriano <br><br>
+            <a href="docs/Ricardo_Palma.pdf" download="biografiarp">Descargar</a>
+          </h3>
+        </td>
+        <td>
+          <a href="https://cuentosbonitos.weebly.com/don-dimas-de-la-tijereta.html" target="_blank">
+            <img src="img/don_dimas.jpg" width="240" height="240" alt="Don Dimas de la Tijereta" title="Don Dimas de la Tijereta">
+          </a>
+        </td>
+        <td>
+          <iframe width="460" height="215"
+            src="https://www.youtube.com/embed/lNvm5ZSEaNs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Fuente:</th>
+        <td colspan="4">
+          *<a href="https://cuentosbonitos.weebly.com/" target="_blank">Cuentos bonitos</a>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="centrado">
+    <a href="index.html">Retornar</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>insertar video de Youtube en iframe y un Div</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .caja {
+            border: 4px solid #535609;
+            width: 780px;
+            margin: 10px auto;
+            padding: 0;
+        }
+        iframe {
+            display: block;
+            width: 780px;
+            height: 390px;
+            border: none;
+        }
+        .retornar-container {
+            width: 780px;
+            margin: 10px auto 0 auto;
+            text-align: center;
+        }
+        .retornar-container a {
+            color: blue;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .retornar-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <iframe src="https://www.youtube.com/embed/wr-eslseXO8" allowfullscreen></iframe>
+    </div>
+    <div class="retornar-container">
+        <a href="index.html">Retornar</a>
+    </div>
+</body>
+</html>
